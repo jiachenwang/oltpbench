@@ -4,7 +4,7 @@
     <dbtype>oracle</dbtype>
     <driver>oracle.jdbc.driver.OracleDriver</driver>
     <!-- <DBUrl>jdbc:oracle:thin:@ec2-52-90-189-132.compute-1.amazonaws.com:1521:ded</DBUrl> -->
-    <DBUrl>jdbc:oracle:thin:@localhost:1521</DBUrl>
+    <DBUrl>jdbc:oracle:thin:@localhost:1521:orcl</DBUrl>
     <DBName>tpcc</DBName>
     <username>sysdba</username>
     <password></password>
